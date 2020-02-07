@@ -9,6 +9,7 @@ on:
       - '*'
 jobs:
   my_first_job:
+    runs-on: self-hosted
     steps:
       - name: My first step
         uses: docker://ubuntu:latest
